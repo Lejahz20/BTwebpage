@@ -1,0 +1,65 @@
+
+/* about.css */
+.cyan-box {
+  width: 800px;
+  height: 300px;
+  background-color: rgba(200, 200, 200, 0.5);
+  border-radius: 10px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-side {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left-side h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.description {
+  font-size: 18px;
+  color: #444;
+}
+
+.right-side {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+/* Hover effect sa profile images */
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.profile-pic:hover {
+  transform: scale(1.05);
+}
+
+.profile-pic:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(230, 166, 70, 0.7); /* Neon glow */
+}
