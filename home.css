@@ -140,7 +140,9 @@ body {
 /* Expertise Section */
 .expertise {
   margin: 20px 5px 30px;
-  padding: 35px;
+  padding: 25px;
+  padding-left: 4px;
+  padding-right: 4px;
   border-radius: 20px;
   width: 98vw;
   max-height: 700px;
