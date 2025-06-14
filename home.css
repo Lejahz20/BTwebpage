@@ -85,36 +85,37 @@ body {
 }
 
 .expertise {
-  padding: 25px 4px;
-  margin: 20px 5px 30px;
-  border-radius: 20px;
-  width: 98vw;
-  display: flex;
+  padding: 20px;
   background-color: white;
-  justify-content: center;
-  gap: 30px;
-  flex-wrap: wrap;
-}
-
-.info {
-  font-size: 24px;
-  padding: 24px;
-  width: 300px;
-  min-height: 350px;
-  background-color: rgb(78, 70, 54);
-  border: 1px solid black;
-  color: white;
+  color: black;
+  font-size: 22px;
+  line-height: 1.6;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 20px;
-  text-align: center;
-  transition: transform 0.3s ease;
+  flex-direction: column;
+  gap: 30px;
 }
 
-.info:hover {
-  transform: scale(1.05);
+.info-block {
+  padding: 20px;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.1); /* transparent effect */
+  backdrop-filter: blur(3px); /* optional: glass effect */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.info-block:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.info-block hr {
+  margin-top: 20px;
+  border: none;
+  border-top: 2px solid #aaa;
+}
+
+
+
 
 /* Responsive */
 @media (max-width: 768px) {
